@@ -196,13 +196,13 @@ export default function Signup() {
           quality={100}
         />
         <div className="container">
-          <div className="row d-flex justify-content-center align-items-center">
+          <div className="row align-items-center">
             <div className={`${styles.left} col`}>
               {/* <h4 className={`text-white ${styles.welcome}`}>Welcome to</h4>
               <h3 className={`text-white ${styles['guru-laptop']}`}>
                 GURU Laptop */}
               {/* </h3> */}
-              <h4 className={styles.white}>
+              <h4 className={`text-white text-start`}>
                 {renderJumpingText('Welcome to', 'welcome-text')}
               </h4>
               <br />

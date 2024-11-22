@@ -6,6 +6,10 @@
     flex-wrap: wrap; /* 允許文字換行 */
     justify-content: center;
     gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
   
   .word {
@@ -145,7 +149,7 @@
   }
   
   .wordGroup {
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 0.5rem;
